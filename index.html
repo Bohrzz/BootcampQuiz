@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootcamp Quiz!</title>
+    <meta charset="UTF-10" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets\style.css" />
+
+</head>
+
+<body>
+    <div class="main-container"> 
+        
+
+    <div id="timer" class="hidden">
+        <h1 class="timer">Time Left:<span id="time-left">100 seconds left</span> </h1>
+    </div>
+
+    
+
+    <div class="inner-container">
+
+        <div id="question-container" class="hidden">
+            <div id="questions" class="questions">Questions</div>
+            <div id="choices"></div>
+
+        </div>
+        <div id="endScreen"></div>
+        <div id="quiz-scores" class="hidden">
+            <form class="quiz-scores">
+                <h2>
+                    Enter initials below to save your score!!
+                </h2>
+
+                <input type="text" name="initials" id="playerInitials" placeholder="Enter your initials" class="input">
+                <button class="score-bttn" id="saveScoreBttn" type="submit">Save</button>
+
+
+            </form>
+        </div>
+
+        <div id="restart" class="hidden"><a href="index.html" class="score-bttn" id="restart">Restart Quiz</a></div>
+        <div id="start-text" class="start-text">
+            <h1>
+                Bootcamp Quiz!
+            </h1>
+
+            <p>
+                Answer the questions before the timer's up! <br>
+                Each wrong answer reduces your time by 10 seconds!
+            </p>
+
+        </div>
+
+        <div class="start-next">
+            <button id="start-bttn" class="start-bttn">Start!</button>
+
+        </div>
+    </div>
+    </div>
+    <script src="Assets\script.js"></script>
+
+</body>
+
+
+
+
+</html>
